@@ -1,0 +1,37 @@
+<!--  
+object클래스 p298
+
+protected Object clone() : 자신 객체의 복사한 객체 리턴 
+public Boolean equals(Object Obj) : 같은 객체인지 비교
+protected void finalize() : 객체가 소멸될 때 가비지 콜렉션에 의해 호출되는 메서드 
+public Class getClass() : 자신 객체의 클래스 정보 리턴 
+public int hashCode() : 자신 객체의 해쉬코드 리턴 
+public String toString() : 자신 객체의 문자열 정보 리턴
+public void notify() : 자신 객체를 사용하는 스레드 하나를 깨움
+public void notifyAll() : 자신 객체를 사용하는 모든 스레드를 깨움.
+public void wait() : 다른 스레드가 notify, notifyAll을 실행할때까지 대기
+public void wait(long timeout) : 다른 스레드가 notify, notifyAll을 실행할 때까지 timeout동안 대기
+public void wait(long timeout, int nanos) : 다른 스레드가 notify, notifyAll을 실행할 때까지 timeout,nano동안 대기
+
+문자열 메서드 p316
+
+charAt(int index): 문자열의 index위치의 문자 리턴
+equals(Object obj): 해당 문자열의 값과 obj의 문자열 값을 비교 
+indexOf(String str): 문자열내 매개변수 문자열의 위치 리턴 
+indexOf(char ch): 문자열내 매개변수 문자의 위치 리턴
+subString(int start) : 매개변수 start위치에서 끝까지 잘라냄
+subString(int start,int end) : 매개변수 start위치에서 end위치 전까지 잘라냄
+toLowerCase() : 문자열을 소문자로 변환하여 리턴
+toUpperCase() : 문자열을 대문자로 변환하여 리턴 
+trim() ; 문자열의 앞과 뒤 공백을 제거하여 리턴(중간공백은 제거 안됨 )
+valueOf(기본자료형i) : 기본자료형 값을 문자열로 변환하여 리턴 
+length() : 문자열의 길이를 리턴
+startWith(Strign str) : 문자열 중 매개변수 start로 시작하면 true 그렇지 않으면 false 리턴 
+endWith(Strign str) : 문자열 중 매개변수 end로 끝나면 true 그렇지 않으면 false 리턴 
+replace(String old, String new) : 문자열 중 old를 new로 치환
+replaceAll(String regex, String replacement) : 문자열 중 매개변수 문자열 regex를 replacement로 치환(정규식 사용 가능)
+split(String regex) : 문자열을 매개변수 regex를 구분자로 나눠서 배열로 리턴 
+toString(); String 객체에 저장되어 있는 문자열 리턴 
+
+
+-->
